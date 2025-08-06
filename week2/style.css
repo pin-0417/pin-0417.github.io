@@ -1,0 +1,28 @@
+h1 {
+  color: purple;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h2 {
+  color: limegreen;
+}
+
+p {
+  font-weight: bold;
+}
+
+.blue-color {
+  color: blue;
+}
+
+section {
+  text-align: center;
+  border: 2px solid red;
+}
+
+h3 {
+  font-family: "Lexend", sans-serif;
+  border: 1px dashed green;
+  margin-top: 20px;
+}

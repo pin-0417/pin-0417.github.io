@@ -1,0 +1,22 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+}
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid blue;
+  background-color: bisque;
+  min-height: 200px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-top: 2px dashed red;
+}
+.p2 {
+  line-height: 160px;
+}

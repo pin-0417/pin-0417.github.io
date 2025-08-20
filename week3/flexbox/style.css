@@ -20,9 +20,11 @@ body {
   border: 2px dashed #e5e5cb56;
   min-height: 100px;
   display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
   align-items: center;
+  /* justify-content: flex-end; */
+  /* flex-direction: column; */
+  /* justify-content: center;
+  align-items: center; */
   /* flex-wrap: wrap; */
   gap: 10px;
 }
@@ -31,16 +33,19 @@ body {
   background-color: limegreen;
   padding: 10px;
   color: black;
+  flex: 1;
 }
 
 .coralbox {
   background-color: coral;
   padding: 10px;
   color: black;
+  flex: 1;
 }
 
 .pinkbox {
   background-color: rgb(233, 154, 217);
   padding: 10px;
   color: black;
+  flex: 1;
 }

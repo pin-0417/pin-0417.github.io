@@ -28,10 +28,12 @@ function greet(name) {
 let name = "Jill";
 greet(name);
 
+greet("Jill");
+
 // calling of a function
 let sum = add(a, b);
 console.log("value of sum", sum);
-let sum2 = add(45, 67);
+let sum2 = add(sum, 67);
 let d = 56;
 let e = 8788;
 let sum3 = add(d, e);

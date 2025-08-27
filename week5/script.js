@@ -118,3 +118,7 @@ for (let i = 0; i < shoppingCart.length; i++) {
 if (cartTotal > 200) {
   console.log("you got 10%discount");
 }
+
+let a = 10;
+let b = 40;
+let c = a + b;

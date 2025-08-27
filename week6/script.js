@@ -8,6 +8,14 @@ const firstPara = document.querySelector("p");
 console.log(firstPara);
 console.log(firstPara.textContent);
 firstPara.textContent = "This is my new para";
+firstPara.innerHTML += "<span> New element </span>";
+
+const mySection = document.querySelector("section");
+console.log(mySection);
+let myNewContent = `
+<h2>this is an image of cat </h2>
+<p> do you likeit? </p>`;
+mySection.innerHTML += myNewContent;
 
 const h2Heading = document.querySelector("#second-heading");
 console.log(h2Heading);
@@ -38,4 +46,22 @@ function toggleMe() {
   const myImg = document.querySelector("img");
   console.log(myImg);
   myImg.classList.toggle("round");
+}
+
+const myImg = document.querySelector("img");
+console.log(myImg);
+myImg.addEventListener("mouseenter", addme);
+myImg.addEventListener("mouseleave", removeMe);
+myImg.addEventListener("click", handleClick);
+function addMe() {
+  myImg.classList.add("round");
+}
+
+function removeMe() {
+  myImg.classList.remove("round");
+}
+
+function hnadleClick() {
+  console.log("did you just click me??");
+  topHeading.textContent = "My cat";
 }

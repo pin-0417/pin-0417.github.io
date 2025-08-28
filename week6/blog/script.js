@@ -55,9 +55,8 @@ for (let i = 0; i < blogPosts.length; i++) {
       <p> ${blogPosts[i].content}</p>
     </section>
     `;
-
-  console.log(content);
 }
+
 
 // Fetching the posts using the forEach method
 // let i = 0;
